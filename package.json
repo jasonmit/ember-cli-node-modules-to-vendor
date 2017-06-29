@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-node-modules-to-vendor",
+  "name": "@jasonmit/ember-cli-node-modules-to-vendor",
   "version": "0.2.1",
   "description": "Easily import packages (non ember addons) from `node_modules`",
   "keywords": [
@@ -8,10 +8,12 @@
   "license": "MIT",
   "author": "Kelly Selden",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/kellyselden/ember-cli-node-modules-to-vendor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmit/ember-cli-node-modules-to-vendor.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -47,5 +49,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jasonmit/ember-cli-node-modules-to-vendor/issues"
+  },
+  "homepage": "https://github.com/jasonmit/ember-cli-node-modules-to-vendor#readme",
+  "main": "index.js"
 }
